@@ -3,6 +3,9 @@
  */
 const translations = {
     fr: {
+        // Meta
+        meta_description: "Tarik Lakssimi - Professeur agrégé des facultés de droit, Consultant, Arbitre international, Avocat au Barreau de Paris. Expertise en droit des contrats, contentieux complexe et intelligence artificielle.",
+
         // Navigation
         nav_home: "Accueil",
         nav_profile: "Profil",
@@ -96,7 +99,7 @@ const translations = {
         footer_bar: "Avocat inscrit au Barreau de Paris",
 
         // Cookie banner
-        cookie_text: "Ce site utilise des cookies pour améliorer votre expérience et mesurer l'audience. En continuant à naviguer, vous acceptez leur utilisation.",
+        cookie_text: "Ce site utilise des cookies techniques pour mémoriser vos préférences (langue, consentement). Aucun cookie de pistage n'est utilisé.",
         cookie_link: "En savoir plus",
         cookie_accept: "Accepter",
         cookie_refuse: "Refuser",
@@ -113,10 +116,10 @@ const translations = {
         legal_ip: "Propriété intellectuelle",
         legal_ip_content: "L'ensemble du contenu de ce site (textes, images, graphismes, logo, etc.) est la propriété exclusive de Tarik Lakssimi, sauf mention contraire. Toute reproduction, représentation, modification, publication ou adaptation de tout ou partie des éléments du site est interdite sans autorisation écrite préalable.",
         legal_data: "Données personnelles",
-        legal_data_content: "Ce site ne collecte pas de données personnelles via des formulaires. Les seules données collectées sont des données de navigation anonymes à des fins statistiques (Google Analytics), dans le respect du RGPD.",
+        legal_data_content: "Ce site ne collecte pas de données personnelles via des formulaires et n'utilise pas d'outils de mesure d'audience. Seules des données techniques minimales sont stockées localement (préférence de langue, consentement cookies).",
         legal_data_rights: "Conformément à la loi « Informatique et Libertés » du 6 janvier 1978 modifiée et au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant. Pour exercer ce droit, vous pouvez contacter :",
         legal_cookies: "Cookies",
-        legal_cookies_content: "Ce site utilise des cookies à des fins de mesure d'audience (Google Analytics). Ces cookies permettent d'établir des statistiques de fréquentation anonymes. Vous pouvez refuser ces cookies en configurant votre navigateur.",
+        legal_cookies_content: "Ce site utilise uniquement des cookies techniques essentiels : préférence de langue et mémorisation du consentement cookies. Aucun cookie de mesure d'audience ou de pistage n'est utilisé.",
         legal_responsibility: "Responsabilité",
         legal_responsibility_content: "Les informations contenues sur ce site sont données à titre indicatif et ne constituent pas un avis juridique. Elles ne sauraient engager la responsabilité de Tarik Lakssimi. Pour toute question juridique, veuillez prendre contact directement.",
         legal_credits: "Crédits",
@@ -125,6 +128,9 @@ const translations = {
     },
 
     en: {
+        // Meta
+        meta_description: "Tarik Lakssimi - Professor of Law (Agrégé), Consultant, International Arbitrator, Attorney at the Paris Bar. Expertise in contract law, complex litigation and artificial intelligence.",
+
         // Navigation
         nav_home: "Home",
         nav_profile: "Profile",
@@ -218,7 +224,7 @@ const translations = {
         footer_bar: "Attorney registered with the Paris Bar",
 
         // Cookie banner
-        cookie_text: "This site uses cookies to improve your experience and measure audience. By continuing to browse, you accept their use.",
+        cookie_text: "This site uses technical cookies to remember your preferences (language, consent). No tracking cookies are used.",
         cookie_link: "Learn more",
         cookie_accept: "Accept",
         cookie_refuse: "Refuse",
@@ -235,10 +241,10 @@ const translations = {
         legal_ip: "Intellectual Property",
         legal_ip_content: "All content on this site (texts, images, graphics, logo, etc.) is the exclusive property of Tarik Lakssimi, unless otherwise stated. Any reproduction, representation, modification, publication or adaptation of all or part of the site elements is prohibited without prior written authorization.",
         legal_data: "Personal Data",
-        legal_data_content: "This site does not collect personal data through forms. The only data collected is anonymous browsing data for statistical purposes (Google Analytics), in compliance with GDPR.",
+        legal_data_content: "This site does not collect personal data through forms and does not use audience measurement tools. Only minimal technical data is stored locally (language preference, cookie consent).",
         legal_data_rights: "In accordance with the French Data Protection Act and the General Data Protection Regulation (GDPR), you have the right to access, rectify and delete your personal data. To exercise this right, please contact:",
         legal_cookies: "Cookies",
-        legal_cookies_content: "This site uses cookies for audience measurement purposes (Google Analytics). These cookies allow anonymous traffic statistics to be established. You can refuse these cookies by configuring your browser.",
+        legal_cookies_content: "This site only uses essential technical cookies: language preference and cookie consent storage. No audience measurement or tracking cookies are used.",
         legal_responsibility: "Liability",
         legal_responsibility_content: "The information contained on this site is provided for informational purposes only and does not constitute legal advice. It cannot engage the liability of Tarik Lakssimi. For any legal question, please contact directly.",
         legal_credits: "Credits",
@@ -247,6 +253,9 @@ const translations = {
     },
 
     pt: {
+        // Meta
+        meta_description: "Tarik Lakssimi - Professor Catedrático de Direito, Consultor, Árbitro internacional, Advogado na Ordem de Paris. Expertise em direito dos contratos, contencioso complexo e inteligência artificial.",
+
         // Navigation
         nav_home: "Início",
         nav_profile: "Perfil",
@@ -340,7 +349,7 @@ const translations = {
         footer_bar: "Advogado inscrito na Ordem de Paris",
 
         // Cookie banner
-        cookie_text: "Este site utiliza cookies para melhorar sua experiência e medir a audiência. Ao continuar navegando, você aceita seu uso.",
+        cookie_text: "Este site utiliza cookies técnicos para lembrar suas preferências (idioma, consentimento). Nenhum cookie de rastreamento é utilizado.",
         cookie_link: "Saiba mais",
         cookie_accept: "Aceitar",
         cookie_refuse: "Recusar",
@@ -357,10 +366,10 @@ const translations = {
         legal_ip: "Propriedade Intelectual",
         legal_ip_content: "Todo o conteúdo deste site (textos, imagens, gráficos, logotipo, etc.) é propriedade exclusiva de Tarik Lakssimi, salvo indicação em contrário. Qualquer reprodução, representação, modificação, publicação ou adaptação de todo ou parte dos elementos do site é proibida sem autorização prévia por escrito.",
         legal_data: "Dados Pessoais",
-        legal_data_content: "Este site não coleta dados pessoais através de formulários. Os únicos dados coletados são dados de navegação anônimos para fins estatísticos (Google Analytics), em conformidade com o RGPD.",
+        legal_data_content: "Este site não coleta dados pessoais através de formulários e não utiliza ferramentas de medição de audiência. Apenas dados técnicos mínimos são armazenados localmente (preferência de idioma, consentimento de cookies).",
         legal_data_rights: "De acordo com a legislação de proteção de dados e o Regulamento Geral de Proteção de Dados (RGPD), você tem o direito de acesso, retificação e exclusão de seus dados pessoais. Para exercer este direito, entre em contato com:",
         legal_cookies: "Cookies",
-        legal_cookies_content: "Este site utiliza cookies para fins de medição de audiência (Google Analytics). Estes cookies permitem estabelecer estatísticas de tráfego anônimas. Você pode recusar estes cookies configurando seu navegador.",
+        legal_cookies_content: "Este site utiliza apenas cookies técnicos essenciais: preferência de idioma e armazenamento do consentimento de cookies. Nenhum cookie de medição de audiência ou rastreamento é utilizado.",
         legal_responsibility: "Responsabilidade",
         legal_responsibility_content: "As informações contidas neste site são fornecidas apenas para fins informativos e não constituem aconselhamento jurídico. Não podem comprometer a responsabilidade de Tarik Lakssimi. Para qualquer questão jurídica, entre em contato diretamente.",
         legal_credits: "Créditos",
@@ -369,6 +378,9 @@ const translations = {
     },
 
     es: {
+        // Meta
+        meta_description: "Tarik Lakssimi - Catedrático de Derecho, Consultor, Árbitro internacional, Abogado del Colegio de París. Expertise en derecho de contratos, contencioso complejo e inteligencia artificial.",
+
         // Navigation
         nav_home: "Inicio",
         nav_profile: "Perfil",
@@ -462,7 +474,7 @@ const translations = {
         footer_bar: "Abogado inscrito en el Colegio de París",
 
         // Cookie banner
-        cookie_text: "Este sitio utiliza cookies para mejorar su experiencia y medir la audiencia. Al continuar navegando, acepta su uso.",
+        cookie_text: "Este sitio utiliza cookies técnicas para recordar sus preferencias (idioma, consentimiento). No se utilizan cookies de seguimiento.",
         cookie_link: "Más información",
         cookie_accept: "Aceptar",
         cookie_refuse: "Rechazar",
@@ -479,10 +491,10 @@ const translations = {
         legal_ip: "Propiedad Intelectual",
         legal_ip_content: "Todo el contenido de este sitio (textos, imágenes, gráficos, logotipo, etc.) es propiedad exclusiva de Tarik Lakssimi, salvo indicación en contrario. Queda prohibida cualquier reproducción, representación, modificación, publicación o adaptación de todo o parte de los elementos del sitio sin autorización previa por escrito.",
         legal_data: "Datos Personales",
-        legal_data_content: "Este sitio no recopila datos personales a través de formularios. Los únicos datos recopilados son datos de navegación anónimos con fines estadísticos (Google Analytics), de conformidad con el RGPD.",
+        legal_data_content: "Este sitio no recopila datos personales a través de formularios y no utiliza herramientas de medición de audiencia. Solo se almacenan localmente datos técnicos mínimos (preferencia de idioma, consentimiento de cookies).",
         legal_data_rights: "De acuerdo con la legislación de protección de datos y el Reglamento General de Protección de Datos (RGPD), usted tiene derecho de acceso, rectificación y supresión de sus datos personales. Para ejercer este derecho, puede contactar con:",
         legal_cookies: "Cookies",
-        legal_cookies_content: "Este sitio utiliza cookies con fines de medición de audiencia (Google Analytics). Estas cookies permiten establecer estadísticas de tráfico anónimas. Puede rechazar estas cookies configurando su navegador.",
+        legal_cookies_content: "Este sitio utiliza únicamente cookies técnicas esenciales: preferencia de idioma y almacenamiento del consentimiento de cookies. No se utilizan cookies de medición de audiencia ni de seguimiento.",
         legal_responsibility: "Responsabilidad",
         legal_responsibility_content: "La información contenida en este sitio se proporciona únicamente con fines informativos y no constituye asesoramiento jurídico. No puede comprometer la responsabilidad de Tarik Lakssimi. Para cualquier cuestión jurídica, contacte directamente.",
         legal_credits: "Créditos",

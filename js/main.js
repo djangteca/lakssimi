@@ -274,6 +274,12 @@ function setLanguage(lang) {
         }
     });
 
+    // Update meta description
+    const metaDesc = document.getElementById('meta-description');
+    if (metaDesc && langData.meta_description) {
+        metaDesc.setAttribute('content', langData.meta_description);
+    }
+
     // Update active button state
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
