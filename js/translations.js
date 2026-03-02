@@ -53,6 +53,26 @@ const translations = {
         area4_desc: "Accompagnement des directions juridiques sur les enjeux de l'intelligence artificielle. Contributeur au rapport sur l'intelligence artificielle remis au Garde des Sceaux (2025) dans le cadre du déploiement de l'IA dans les juridictions.",
         area4_note: "Expertise distinctive sur les enjeux réglementaires (RIA, RGPD).",
 
+        // Services - Droit des contrats
+        area1_service1: "› Rédaction et audit de clauses sensibles",
+        area1_service2: "› Avis de droit au soutien d'une négociation ou d'un contentieux",
+        area1_service3: "› Analyse de risques avant signature ou en cours d'exécution",
+        area1_service4: "› Stratégie de sortie de contrat",
+
+        // Services - Contentieux complexe
+        area2_service1: "› Choix de la stratégie judiciaire et évaluation des chances de succès",
+        area2_service2: "› Contentieux contractuels devant les juridictions commerciales",
+        area2_service3: "› Pourvois en cassation",
+
+        // Services - Arbitrage
+        area3_service1: "› Désignation comme arbitre unique, co-arbitre ou président",
+        area3_service2: "› Litiges post-acquisition, exécution de contrats, responsabilité contractuelle",
+
+        // Services - Intelligence artificielle
+        area4_service1: "› Conformité au Règlement européen sur l'IA (RIA)",
+        area4_service2: "› Gouvernance des systèmes d'IA en entreprise",
+        area4_service3: "› Stratégie juridique face aux régulateurs",
+
         // Publications
         publications_title: "Publications et travaux",
         pub_category_book: "Ouvrage",
@@ -153,6 +173,26 @@ const translations = {
         area4_title: "Artificial Intelligence",
         area4_desc: "Advising legal departments on artificial intelligence issues. Contributor to the AI report submitted to the Minister of Justice (2025) as part of AI deployment in courts.",
         area4_note: "Distinctive expertise on regulatory issues (AI Act, GDPR).",
+
+        // Services - Contract Law
+        area1_service1: "› Drafting and auditing of sensitive clauses",
+        area1_service2: "› Legal opinions in support of negotiations or litigation",
+        area1_service3: "› Risk analysis before signing or during execution",
+        area1_service4: "› Contract exit strategy",
+
+        // Services - Complex Litigation
+        area2_service1: "› Choice of litigation strategy and assessment of success chances",
+        area2_service2: "› Contractual disputes before commercial courts",
+        area2_service3: "› Appeals to the Court of Cassation",
+
+        // Services - Arbitration
+        area3_service1: "› Appointment as sole arbitrator, co-arbitrator or chairman",
+        area3_service2: "› Post-acquisition disputes, contract performance, contractual liability",
+
+        // Services - Artificial Intelligence
+        area4_service1: "› Compliance with the EU AI Act",
+        area4_service2: "› AI systems governance in business",
+        area4_service3: "› Legal strategy with regulators",
 
         // Publications
         publications_title: "Publications and Work",
@@ -255,6 +295,26 @@ const translations = {
         area4_desc: "Assessoria a direções jurídicas sobre questões de inteligência artificial. Contribuidor do relatório sobre IA entregue ao Ministro da Justiça (2025) no âmbito da implantação da IA nas jurisdições.",
         area4_note: "Expertise distintiva em questões regulatórias (RIA, RGPD).",
 
+        // Services - Direito dos Contratos
+        area1_service1: "› Redação e auditoria de cláusulas sensíveis",
+        area1_service2: "› Pareceres jurídicos em apoio a negociações ou litígios",
+        area1_service3: "› Análise de riscos antes da assinatura ou durante a execução",
+        area1_service4: "› Estratégia de saída de contrato",
+
+        // Services - Contencioso Complexo
+        area2_service1: "› Escolha da estratégia judicial e avaliação das chances de sucesso",
+        area2_service2: "› Litígios contratuais perante os tribunais comerciais",
+        area2_service3: "› Recursos para a Corte de Cassação",
+
+        // Services - Arbitragem
+        area3_service1: "› Designação como árbitro único, coárbitro ou presidente",
+        area3_service2: "› Litígios pós-aquisição, execução de contratos, responsabilidade contratual",
+
+        // Services - Inteligência Artificial
+        area4_service1: "› Conformidade com o Regulamento Europeu de IA (RIA)",
+        area4_service2: "› Governança de sistemas de IA nas empresas",
+        area4_service3: "› Estratégia jurídica perante reguladores",
+
         // Publications
         publications_title: "Publicações e Trabalhos",
         pub_category_book: "Livro",
@@ -355,6 +415,26 @@ const translations = {
         area4_title: "Inteligencia Artificial",
         area4_desc: "Asesoramiento a direcciones jurídicas sobre cuestiones de inteligencia artificial. Contribuyente al informe sobre IA entregado al Ministro de Justicia (2025) en el marco del despliegue de la IA en las jurisdicciones.",
         area4_note: "Experiencia distintiva en cuestiones regulatorias (RIA, RGPD).",
+
+        // Services - Derecho de Contratos
+        area1_service1: "› Redacción y auditoría de cláusulas sensibles",
+        area1_service2: "› Dictámenes jurídicos en apoyo de negociaciones o litigios",
+        area1_service3: "› Análisis de riesgos antes de la firma o durante la ejecución",
+        area1_service4: "› Estrategia de salida de contrato",
+
+        // Services - Contencioso Complejo
+        area2_service1: "› Elección de la estrategia judicial y evaluación de las posibilidades de éxito",
+        area2_service2: "› Litigios contractuales ante los tribunales comerciales",
+        area2_service3: "› Recursos de casación",
+
+        // Services - Arbitraje
+        area3_service1: "› Designación como árbitro único, coárbitro o presidente",
+        area3_service2: "› Litigios post-adquisición, ejecución de contratos, responsabilidad contractual",
+
+        // Services - Inteligencia Artificial
+        area4_service1: "› Cumplimiento del Reglamento Europeo de IA (RIA)",
+        area4_service2: "› Gobernanza de sistemas de IA en la empresa",
+        area4_service3: "› Estrategia jurídica frente a reguladores",
 
         // Publications
         publications_title: "Publicaciones y Trabajos",
