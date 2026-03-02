@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initSmoothScroll();
     initRevealAnimations();
     initCookieBanner();
+    initLanguageSelector();
 });
 
 /**
@@ -223,4 +224,60 @@ function initCookieBanner() {
         localStorage.setItem('cookie-consent', 'refused');
         banner.classList.add('hidden');
     });
+}
+
+/**
+ * Language Selector Module
+ */
+function initLanguageSelector() {
+    const langButtons = document.querySelectorAll('.lang-btn');
+
+    if (langButtons.length === 0) return;
+
+    // Get saved language or default to French
+    const savedLang = localStorage.getItem('language') || 'fr';
+    setLanguage(savedLang);
+
+    // Add click handlers to language buttons
+    langButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const lang = btn.getAttribute('data-lang');
+            setLanguage(lang);
+            localStorage.setItem('language', lang);
+        });
+    });
+}
+
+/**
+ * Set Language
+ */
+function setLanguage(lang) {
+    // Check if translations exist
+    if (typeof translations === 'undefined' || !translations[lang]) {
+        console.warn('Translations not available for:', lang);
+        return;
+    }
+
+    const langData = translations[lang];
+
+    // Update all elements with data-i18n attribute
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (langData[key]) {
+            // Check if element should use innerHTML (for HTML content)
+            if (el.getAttribute('data-i18n-html') === 'true') {
+                el.innerHTML = langData[key];
+            } else {
+                el.textContent = langData[key];
+            }
+        }
+    });
+
+    // Update active button state
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+    });
+
+    // Update HTML lang attribute
+    document.documentElement.lang = lang;
 }

@@ -21,12 +21,26 @@
         <div class="nav-container">
             <a href="/" class="nav-logo">TL</a>
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="/#accueil" class="nav-link">Accueil</a></li>
-                <li><a href="/#profil" class="nav-link">Profil</a></li>
-                <li><a href="/#domaines" class="nav-link">Domaines</a></li>
-                <li><a href="/#publications" class="nav-link">Publications</a></li>
-                <li><a href="/#contact" class="nav-link">Contact</a></li>
+                <li><a href="/#accueil" class="nav-link" data-i18n="nav_home">Accueil</a></li>
+                <li><a href="/#profil" class="nav-link" data-i18n="nav_profile">Profil</a></li>
+                <li><a href="/#domaines" class="nav-link" data-i18n="nav_areas">Domaines</a></li>
+                <li><a href="/#publications" class="nav-link" data-i18n="nav_publications">Publications</a></li>
+                <li><a href="/#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
             </ul>
+            <div class="lang-selector" id="lang-selector">
+                <button class="lang-btn active" data-lang="fr" title="Français">
+                    <span class="flag">FR</span>
+                </button>
+                <button class="lang-btn" data-lang="en" title="English">
+                    <span class="flag">EN</span>
+                </button>
+                <button class="lang-btn" data-lang="pt" title="Português">
+                    <span class="flag">PT</span>
+                </button>
+                <button class="lang-btn" data-lang="es" title="Español">
+                    <span class="flag">ES</span>
+                </button>
+            </div>
         </div>
     </nav>
 
@@ -34,12 +48,12 @@
     <section class="section mentions-legales" style="padding-top: 150px;">
         <div class="container">
             <div class="section-header">
-                <h1 class="section-title">Mentions légales</h1>
+                <h1 class="section-title" data-i18n="legal_title">Mentions légales</h1>
             </div>
 
             <div class="mentions-content" style="max-width: 800px;">
-                <h2>Éditeur du site</h2>
-                <p>
+                <h2 data-i18n="legal_editor">Éditeur du site</h2>
+                <p data-i18n="legal_editor_content" data-i18n-html="true">
                     <strong>Tarik Lakssimi</strong><br>
                     Avocat au Barreau de Paris<br>
                     Professeur agrégé des facultés de droit<br>
@@ -47,74 +61,78 @@
                 </p>
                 <p>
                     Email : <a href="mailto:cabinet@avocat-lakssimi.com">cabinet@avocat-lakssimi.com</a><br>
-                    Téléphone : +33 6 20 99 21 78
+                    <span data-i18n="contact_phone">Téléphone</span> : +33 6 20 99 21 78
                 </p>
 
-                <h2>Activité réglementée</h2>
-                <p>
+                <h2 data-i18n="legal_regulated">Activité réglementée</h2>
+                <p data-i18n="legal_regulated_content">
                     Tarik Lakssimi est avocat inscrit au Barreau de Paris, soumis aux règles déontologiques
                     de la profession d'avocat, notamment le Règlement Intérieur National (RIN) et le
                     Règlement Intérieur du Barreau de Paris (RIBP).
                 </p>
-                <p>
+                <p data-i18n="legal_bar_address" data-i18n-html="true">
                     Ordre des Avocats de Paris<br>
                     11 place Dauphine<br>
-                    75001 Paris<br>
+                    75001 Paris
+                </p>
+                <p>
                     <a href="https://www.avocatparis.org" target="_blank" rel="noopener">www.avocatparis.org</a>
                 </p>
 
-                <h2>Hébergement</h2>
-                <p>
+                <h2 data-i18n="legal_hosting">Hébergement</h2>
+                <p data-i18n="legal_hosting_content" data-i18n-html="true">
                     Ce site est hébergé par :<br>
                     <strong>Vercel Inc.</strong><br>
                     340 S Lemon Ave #4133<br>
                     Walnut, CA 91789<br>
-                    États-Unis<br>
+                    États-Unis
+                </p>
+                <p>
                     <a href="https://vercel.com" target="_blank" rel="noopener">www.vercel.com</a>
                 </p>
 
-                <h2>Propriété intellectuelle</h2>
-                <p>
+                <h2 data-i18n="legal_ip">Propriété intellectuelle</h2>
+                <p data-i18n="legal_ip_content">
                     L'ensemble du contenu de ce site (textes, images, graphismes, logo, etc.) est la
                     propriété exclusive de Tarik Lakssimi, sauf mention contraire. Toute reproduction,
                     représentation, modification, publication ou adaptation de tout ou partie des éléments
                     du site est interdite sans autorisation écrite préalable.
                 </p>
 
-                <h2>Données personnelles</h2>
-                <p>
+                <h2 data-i18n="legal_data">Données personnelles</h2>
+                <p data-i18n="legal_data_content">
                     Ce site ne collecte pas de données personnelles via des formulaires. Les seules
                     données collectées sont des données de navigation anonymes à des fins statistiques
                     (Google Analytics), dans le respect du RGPD.
                 </p>
                 <p>
-                    Conformément à la loi « Informatique et Libertés » du 6 janvier 1978 modifiée et au
+                    <span data-i18n="legal_data_rights">Conformément à la loi « Informatique et Libertés » du 6 janvier 1978 modifiée et au
                     Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit
                     d'accès, de rectification et de suppression des données vous concernant. Pour exercer
-                    ce droit, vous pouvez contacter : <a href="mailto:cabinet@avocat-lakssimi.com">cabinet@avocat-lakssimi.com</a>
+                    ce droit, vous pouvez contacter :</span> <a href="mailto:cabinet@avocat-lakssimi.com">cabinet@avocat-lakssimi.com</a>
                 </p>
 
-                <h2>Cookies</h2>
-                <p>
+                <h2 data-i18n="legal_cookies">Cookies</h2>
+                <p data-i18n="legal_cookies_content">
                     Ce site utilise des cookies à des fins de mesure d'audience (Google Analytics).
                     Ces cookies permettent d'établir des statistiques de fréquentation anonymes.
                     Vous pouvez refuser ces cookies en configurant votre navigateur.
                 </p>
 
-                <h2>Responsabilité</h2>
-                <p>
+                <h2 data-i18n="legal_responsibility">Responsabilité</h2>
+                <p data-i18n="legal_responsibility_content">
                     Les informations contenues sur ce site sont données à titre indicatif et ne
                     constituent pas un avis juridique. Elles ne sauraient engager la responsabilité
                     de Tarik Lakssimi. Pour toute question juridique, veuillez prendre contact directement.
                 </p>
 
-                <h2>Crédits</h2>
-                <p>
+                <h2 data-i18n="legal_credits">Crédits</h2>
+                <p data-i18n="legal_credits_content" data-i18n-html="true">
                     Conception et développement : Site réalisé avec l'assistance de Claude (Anthropic).<br>
                     Photographie : École Nationale de la Magistrature.
                 </p>
 
-                <p style="margin-top: 3rem; color: var(--color-text-muted); font-size: 0.875rem;">
+                <p style="margin-top: 3rem; color: var(--color-text-muted); font-size: 0.875rem;" data-i18n="legal_updated">
                     Dernière mise à jour : Mars 2026
                 </p>
             </div>
@@ -127,20 +145,20 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <span class="footer-logo">Tarik Lakssimi</span>
-                    <p class="footer-tagline">Consultant • Arbitre • Avocat au Barreau de Paris</p>
+                    <p class="footer-tagline" data-i18n="footer_tagline">Consultant • Arbitre • Avocat au Barreau de Paris</p>
                 </div>
                 <div class="footer-links">
-                    <a href="/">Accueil</a>
-                    <a href="/#profil">Profil</a>
-                    <a href="/#domaines">Domaines</a>
-                    <a href="/#publications">Publications</a>
-                    <a href="/#contact">Contact</a>
-                    <a href="/mentions-legales.html">Mentions légales</a>
+                    <a href="/" data-i18n="nav_home">Accueil</a>
+                    <a href="/#profil" data-i18n="nav_profile">Profil</a>
+                    <a href="/#domaines" data-i18n="nav_areas">Domaines</a>
+                    <a href="/#publications" data-i18n="nav_publications">Publications</a>
+                    <a href="/#contact" data-i18n="nav_contact">Contact</a>
+                    <a href="/mentions-legales.html" data-i18n="footer_legal">Mentions légales</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Tarik Lakssimi. Tous droits réservés.</p>
-                <p class="footer-legal">Avocat inscrit au Barreau de Paris</p>
+                <p>&copy; 2026 Tarik Lakssimi. <span data-i18n="footer_rights">Tous droits réservés.</span></p>
+                <p class="footer-legal" data-i18n="footer_bar">Avocat inscrit au Barreau de Paris</p>
             </div>
         </div>
     </footer>
@@ -148,14 +166,15 @@
     <!-- Cookie Banner RGPD -->
     <div class="cookie-banner" id="cookie-banner">
         <div class="cookie-content">
-            <p>Ce site utilise des cookies pour améliorer votre expérience et mesurer l'audience. En continuant à naviguer, vous acceptez leur utilisation. <a href="/mentions-legales.html">En savoir plus</a></p>
+            <p><span data-i18n="cookie_text">Ce site utilise des cookies pour améliorer votre expérience et mesurer l'audience. En continuant à naviguer, vous acceptez leur utilisation.</span> <a href="/mentions-legales.html" data-i18n="cookie_link">En savoir plus</a></p>
             <div class="cookie-buttons">
-                <button class="cookie-btn cookie-btn-accept" id="cookie-accept">Accepter</button>
-                <button class="cookie-btn cookie-btn-refuse" id="cookie-refuse">Refuser</button>
+                <button class="cookie-btn cookie-btn-accept" id="cookie-accept" data-i18n="cookie_accept">Accepter</button>
+                <button class="cookie-btn cookie-btn-refuse" id="cookie-refuse" data-i18n="cookie_refuse">Refuser</button>
             </div>
         </div>
     </div>
 
+    <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

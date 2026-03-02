@@ -14,14 +14,14 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://lakssimi.com/">
     <meta property="og:title" content="Tarik Lakssimi | Consultant • Arbitre • Avocat">
-    <meta property="og:description" content="Professeur agrégé des facultés de droit, Directeur de la Recherche à l'ENM. Expertise en droit des contrats, contentieux complexe, arbitrage international et intelligence artificielle.">
+    <meta property="og:description" content="Professeur agrégé des facultés de droit, Directeur de la Recherche à l'École nationale de la magistrature. Expertise en droit des contrats, contentieux complexe, arbitrage international et intelligence artificielle.">
     <meta property="og:image" content="https://lakssimi.com/images/profil.jpg">
     <meta property="og:locale" content="fr_FR">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tarik Lakssimi | Consultant • Arbitre • Avocat">
-    <meta name="twitter:description" content="Professeur agrégé des facultés de droit, Directeur de la Recherche à l'ENM. Expertise en droit des contrats, arbitrage et IA.">
+    <meta name="twitter:description" content="Professeur agrégé des facultés de droit, Directeur de la Recherche à l'École nationale de la magistrature. Expertise en droit des contrats, arbitrage et IA.">
     <meta name="twitter:image" content="https://lakssimi.com/images/profil.jpg">
 
     <!-- Fonts -->
@@ -42,12 +42,26 @@
                 <span></span>
             </button>
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="#accueil" class="nav-link">Accueil</a></li>
-                <li><a href="#profil" class="nav-link">Profil</a></li>
-                <li><a href="#domaines" class="nav-link">Domaines</a></li>
-                <li><a href="#publications" class="nav-link">Publications</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#accueil" class="nav-link" data-i18n="nav_home">Accueil</a></li>
+                <li><a href="#profil" class="nav-link" data-i18n="nav_profile">Profil</a></li>
+                <li><a href="#domaines" class="nav-link" data-i18n="nav_areas">Domaines</a></li>
+                <li><a href="#publications" class="nav-link" data-i18n="nav_publications">Publications</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
             </ul>
+            <div class="lang-selector" id="lang-selector">
+                <button class="lang-btn active" data-lang="fr" title="Français">
+                    <span class="flag">FR</span>
+                </button>
+                <button class="lang-btn" data-lang="en" title="English">
+                    <span class="flag">EN</span>
+                </button>
+                <button class="lang-btn" data-lang="pt" title="Português">
+                    <span class="flag">PT</span>
+                </button>
+                <button class="lang-btn" data-lang="es" title="Español">
+                    <span class="flag">ES</span>
+                </button>
+            </div>
         </div>
     </nav>
 
@@ -55,24 +69,24 @@
     <header class="hero" id="accueil">
         <div class="hero-content">
             <div class="hero-text">
-                <p class="hero-subtitle">Professeur agrégé des facultés de droit</p>
-                <h1 class="hero-title">Tarik Lakssimi</h1>
-                <p class="hero-role">Directeur du département de la Recherche — École Nationale de la Magistrature</p>
+                <p class="hero-subtitle" data-i18n="hero_subtitle">Professeur agrégé des facultés de droit</p>
+                <h1 class="hero-title" data-i18n="hero_title">Tarik Lakssimi</h1>
+                <p class="hero-role" data-i18n="hero_role">Directeur du département de la Recherche — École Nationale de la Magistrature</p>
                 <div class="hero-functions">
-                    <span>Consultant</span>
+                    <span data-i18n="hero_function1">Consultant</span>
                     <span class="separator">•</span>
-                    <span>Arbitre</span>
+                    <span data-i18n="hero_function2">Arbitre</span>
                     <span class="separator">•</span>
-                    <span>Avocat au Barreau de Paris</span>
+                    <span data-i18n="hero_function3">Avocat au Barreau de Paris</span>
                 </div>
                 <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary">Prendre contact</a>
-                    <a href="#domaines" class="btn btn-secondary">Domaines d'intervention</a>
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero_cta_contact">Prendre contact</a>
+                    <a href="#domaines" class="btn btn-secondary" data-i18n="hero_cta_areas">Domaines d'intervention</a>
                 </div>
             </div>
         </div>
         <div class="hero-scroll">
-            <span>Défiler</span>
+            <span data-i18n="hero_scroll">Défiler</span>
             <div class="scroll-line"></div>
         </div>
     </header>
@@ -80,7 +94,7 @@
     <!-- Tagline -->
     <section class="tagline">
         <div class="container">
-            <p class="tagline-text">La rigueur du théoricien. L'efficacité du praticien. La connaissance des institutions.</p>
+            <p class="tagline-text" data-i18n="tagline">La rigueur du théoricien. L'efficacité du praticien. La connaissance des institutions.</p>
         </div>
     </section>
 
@@ -89,36 +103,36 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-number">01</span>
-                <h2 class="section-title">Profil</h2>
+                <h2 class="section-title" data-i18n="profile_title">Profil</h2>
             </div>
             <div class="profil-content">
                 <div class="profil-photo">
                     <img src="images/profil.jpg" alt="Tarik Lakssimi - Professeur agrégé des facultés de droit">
                 </div>
                 <div class="profil-text">
-                    <p class="profil-intro">
-                        Tarik Lakssimi réunit une triple compétence : la rigueur doctrinale d'un agrégé des facultés de droit, l'expérience contentieuse de dix années auprès des juridictions suprêmes, et une connaissance intime du fonctionnement de la justice comme directeur de la Recherche à l'ENM.
+                    <p class="profil-intro" data-i18n="profile_intro">
+                        Tarik Lakssimi réunit une triple compétence : la rigueur doctrinale d'un agrégé des facultés de droit, l'expérience contentieuse de dix années auprès des juridictions suprêmes, et une connaissance intime du fonctionnement de la justice comme directeur de la Recherche à l'École nationale de la magistrature.
                     </p>
-                    <p>
-                        À l'École Nationale de la Magistrature, il a fondé la <em>Revue de la Recherche de l'ENM</em>. Il intervient en consultation, contentieux complexe et arbitrage en droit des contrats civils et commerciaux, ainsi qu'en matière d'intelligence artificielle.
+                    <p data-i18n="profile_text" data-i18n-html="true">
+                        À l'École nationale de la magistrature, il a fondé la <em>Revue de la Recherche de l'École nationale de la magistrature</em>. Il intervient en consultation, contentieux complexe et arbitrage en droit des contrats civils et commerciaux, ainsi qu'en matière d'intelligence artificielle.
                     </p>
                 </div>
                 <div class="profil-highlights">
                     <div class="highlight">
-                        <span class="highlight-number">Agrégé</span>
-                        <span class="highlight-text">Professeur des facultés de droit</span>
+                        <span class="highlight-number" data-i18n="highlight1_number">Agrégé</span>
+                        <span class="highlight-text" data-i18n="highlight1_text">Professeur des facultés de droit</span>
                     </div>
                     <div class="highlight">
-                        <span class="highlight-number">10+</span>
-                        <span class="highlight-text">années auprès des juridictions suprêmes</span>
+                        <span class="highlight-number" data-i18n="highlight2_number">10+</span>
+                        <span class="highlight-text" data-i18n="highlight2_text">années auprès des juridictions suprêmes</span>
                     </div>
                     <div class="highlight">
-                        <span class="highlight-number">4</span>
-                        <span class="highlight-text">langues de procédure : FR, EN, PT, ES</span>
+                        <span class="highlight-number" data-i18n="highlight3_number">4</span>
+                        <span class="highlight-text" data-i18n="highlight3_text">langues de procédure : FR, EN, PT, ES</span>
                     </div>
                     <div class="highlight">
-                        <span class="highlight-number">ENM</span>
-                        <span class="highlight-text">Directeur de la Recherche</span>
+                        <span class="highlight-number" data-i18n="highlight4_number">École nationale de la magistrature</span>
+                        <span class="highlight-text" data-i18n="highlight4_text">Directeur de la Recherche</span>
                     </div>
                 </div>
             </div>
@@ -130,43 +144,43 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-number">02</span>
-                <h2 class="section-title">Domaines d'intervention</h2>
+                <h2 class="section-title" data-i18n="areas_title">Domaines d'intervention</h2>
             </div>
             <div class="domaines-grid">
                 <article class="domaine-card">
                     <span class="domaine-number">01</span>
-                    <h3 class="domaine-title">Droit des contrats</h3>
-                    <p class="domaine-description">
+                    <h3 class="domaine-title" data-i18n="area1_title">Droit des contrats</h3>
+                    <p class="domaine-description" data-i18n="area1_desc">
                         Consultations juridiques en droit des contrats civils et commerciaux. Négociation, rédaction et audit de contrats complexes. Analyse des risques contractuels et stratégies précontentieuses.
                     </p>
-                    <p class="domaine-note">
+                    <p class="domaine-note" data-i18n="area1_note">
                         Ses travaux sur la distinction du contrat et de l'obligation éclairent directement sa pratique consultative.
                     </p>
                 </article>
                 <article class="domaine-card">
                     <span class="domaine-number">02</span>
-                    <h3 class="domaine-title">Contentieux complexe</h3>
-                    <p class="domaine-description">
-                        Stratégie contentieuse devant les juridictions civiles et commerciales. Sa connaissance du fonctionnement des juridictions, nourrie par dix années de collaboration avec les cabinets d'avocats au Conseil d'État et à la Cour de cassation ainsi qu'à l'ENM, lui confère une lecture précise des dynamiques judiciaires.
+                    <h3 class="domaine-title" data-i18n="area2_title">Contentieux complexe</h3>
+                    <p class="domaine-description" data-i18n="area2_desc">
+                        Stratégie contentieuse devant les juridictions civiles et commerciales. Sa connaissance du fonctionnement des juridictions, nourrie par dix années de collaboration avec les cabinets d'avocats au Conseil d'État et à la Cour de cassation ainsi qu'à l'École nationale de la magistrature, lui confère une lecture précise des dynamiques judiciaires.
                     </p>
                 </article>
                 <article class="domaine-card">
                     <span class="domaine-number">03</span>
-                    <h3 class="domaine-title">Arbitrage</h3>
-                    <p class="domaine-description">
+                    <h3 class="domaine-title" data-i18n="area3_title">Arbitrage</h3>
+                    <p class="domaine-description" data-i18n="area3_desc">
                         Arbitre unique, co-arbitre ou président de tribunal arbitral, en procédures ad hoc ou institutionnelles. Litiges contractuels et commerciaux, nationaux et internationaux.
                     </p>
-                    <p class="domaine-languages">
+                    <p class="domaine-languages" data-i18n="area3_languages" data-i18n-html="true">
                         <strong>Langues de procédure :</strong> français, anglais, portugais, espagnol.
                     </p>
                 </article>
                 <article class="domaine-card">
                     <span class="domaine-number">04</span>
-                    <h3 class="domaine-title">Intelligence artificielle</h3>
-                    <p class="domaine-description">
+                    <h3 class="domaine-title" data-i18n="area4_title">Intelligence artificielle</h3>
+                    <p class="domaine-description" data-i18n="area4_desc">
                         Accompagnement des directions juridiques sur les enjeux de l'intelligence artificielle. Contributeur au rapport sur l'intelligence artificielle remis au Garde des Sceaux (2025) dans le cadre du déploiement de l'IA dans les juridictions.
                     </p>
-                    <p class="domaine-note">
+                    <p class="domaine-note" data-i18n="area4_note">
                         Expertise distinctive sur les enjeux réglementaires (RIA, RGPD).
                     </p>
                 </article>
@@ -179,12 +193,12 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-number">03</span>
-                <h2 class="section-title">Publications et travaux</h2>
+                <h2 class="section-title" data-i18n="publications_title">Publications et travaux</h2>
             </div>
 
             <!-- Ouvrage -->
             <div class="publications-category">
-                <h3 class="category-title">Ouvrage</h3>
+                <h3 class="category-title" data-i18n="pub_category_book">Ouvrage</h3>
                 <ul class="publications-list">
                     <li class="publication-item publication-book">
                         <span class="publication-year">2016</span>
@@ -198,7 +212,7 @@
 
             <!-- Articles -->
             <div class="publications-category">
-                <h3 class="category-title">Articles</h3>
+                <h3 class="category-title" data-i18n="pub_category_articles">Articles</h3>
                 <ul class="publications-list">
                     <li class="publication-item">
                         <span class="publication-year">2026</span>
@@ -317,7 +331,7 @@
 
             <!-- Direction de colloques -->
             <div class="publications-category">
-                <h3 class="category-title">Direction de colloques et conférences</h3>
+                <h3 class="category-title" data-i18n="pub_category_conferences">Direction de colloques et conférences</h3>
                 <ul class="publications-list conferences-list">
                     <li class="publication-item">
                         <span class="publication-year">2026</span>
@@ -373,7 +387,7 @@
 
             <!-- Interventions -->
             <div class="publications-category">
-                <h3 class="category-title">Interventions</h3>
+                <h3 class="category-title" data-i18n="pub_category_talks">Interventions</h3>
                 <ul class="publications-list conferences-list">
                     <li class="publication-item">
                         <span class="publication-year">2023</span>
@@ -413,23 +427,23 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-number">04</span>
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title" data-i18n="contact_title">Contact</h2>
             </div>
             <div class="contact-content contact-content-simple">
-                <p class="contact-intro">
+                <p class="contact-intro" data-i18n="contact_intro">
                     Pour toute demande de consultation, de mission d'arbitrage ou de collaboration, n'hésitez pas à prendre contact.
                 </p>
                 <div class="contact-details">
                     <a href="mailto:cabinet@avocat-lakssimi.com" class="contact-item">
-                        <span class="contact-label">Email</span>
+                        <span class="contact-label" data-i18n="contact_email">Email</span>
                         <span class="contact-value">cabinet@avocat-lakssimi.com</span>
                     </a>
                     <a href="tel:+33620992178" class="contact-item">
-                        <span class="contact-label">Téléphone</span>
+                        <span class="contact-label" data-i18n="contact_phone">Téléphone</span>
                         <span class="contact-value">+33 6 20 99 21 78</span>
                     </a>
                     <a href="https://www.linkedin.com/in/tarik-lakssimi-7a4486b6/" target="_blank" rel="noopener" class="contact-item">
-                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-label" data-i18n="contact_linkedin">LinkedIn</span>
                         <span class="contact-value">Tarik Lakssimi</span>
                     </a>
                 </div>
@@ -443,20 +457,20 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <span class="footer-logo">Tarik Lakssimi</span>
-                    <p class="footer-tagline">Consultant • Arbitre • Avocat au Barreau de Paris</p>
+                    <p class="footer-tagline" data-i18n="footer_tagline">Consultant • Arbitre • Avocat au Barreau de Paris</p>
                 </div>
                 <div class="footer-links">
-                    <a href="#accueil">Accueil</a>
-                    <a href="#profil">Profil</a>
-                    <a href="#domaines">Domaines</a>
-                    <a href="#publications">Publications</a>
-                    <a href="#contact">Contact</a>
-                    <a href="/mentions-legales.html">Mentions légales</a>
+                    <a href="#accueil" data-i18n="nav_home">Accueil</a>
+                    <a href="#profil" data-i18n="nav_profile">Profil</a>
+                    <a href="#domaines" data-i18n="nav_areas">Domaines</a>
+                    <a href="#publications" data-i18n="nav_publications">Publications</a>
+                    <a href="#contact" data-i18n="nav_contact">Contact</a>
+                    <a href="/mentions-legales.html" data-i18n="footer_legal">Mentions légales</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Tarik Lakssimi. Tous droits réservés.</p>
-                <p class="footer-legal">Avocat inscrit au Barreau de Paris</p>
+                <p>&copy; 2026 Tarik Lakssimi. <span data-i18n="footer_rights">Tous droits réservés.</span></p>
+                <p class="footer-legal" data-i18n="footer_bar">Avocat inscrit au Barreau de Paris</p>
             </div>
         </div>
     </footer>
@@ -464,14 +478,15 @@
     <!-- Cookie Banner RGPD -->
     <div class="cookie-banner" id="cookie-banner">
         <div class="cookie-content">
-            <p>Ce site utilise des cookies pour améliorer votre expérience et mesurer l'audience. En continuant à naviguer, vous acceptez leur utilisation. <a href="/mentions-legales.html">En savoir plus</a></p>
+            <p><span data-i18n="cookie_text">Ce site utilise des cookies pour améliorer votre expérience et mesurer l'audience. En continuant à naviguer, vous acceptez leur utilisation.</span> <a href="/mentions-legales.html" data-i18n="cookie_link">En savoir plus</a></p>
             <div class="cookie-buttons">
-                <button class="cookie-btn cookie-btn-accept" id="cookie-accept">Accepter</button>
-                <button class="cookie-btn cookie-btn-refuse" id="cookie-refuse">Refuser</button>
+                <button class="cookie-btn cookie-btn-accept" id="cookie-accept" data-i18n="cookie_accept">Accepter</button>
+                <button class="cookie-btn cookie-btn-refuse" id="cookie-refuse" data-i18n="cookie_refuse">Refuser</button>
             </div>
         </div>
     </div>
 
+    <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
