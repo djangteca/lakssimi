@@ -294,6 +294,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: var(--spacing-sm);
 }
 
+.small-caps {
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+}
+
 .hero-role {
     font-size: 1.125rem;
     font-weight: 300;
