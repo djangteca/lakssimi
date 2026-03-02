@@ -82,7 +82,7 @@ const translations = {
         publications_title: "Publications et travaux",
         pub_category_book: "Ouvrage",
         pub_category_articles: "Articles",
-        pub_category_conferences: "Direction de colloques et conférences",
+        pub_category_conferences: "Colloques et conférences",
         pub_category_talks: "Interventions",
 
         // Contact
@@ -208,7 +208,7 @@ const translations = {
         publications_title: "Publications and Work",
         pub_category_book: "Book",
         pub_category_articles: "Articles",
-        pub_category_conferences: "Conference Direction",
+        pub_category_conferences: "Conferences",
         pub_category_talks: "Presentations",
 
         // Contact
@@ -334,7 +334,7 @@ const translations = {
         publications_title: "Publicações e Trabalhos",
         pub_category_book: "Livro",
         pub_category_articles: "Artigos",
-        pub_category_conferences: "Direção de Colóquios e Conferências",
+        pub_category_conferences: "Colóquios e conferências",
         pub_category_talks: "Intervenções",
 
         // Contact
@@ -460,7 +460,7 @@ const translations = {
         publications_title: "Publicaciones y Trabajos",
         pub_category_book: "Libro",
         pub_category_articles: "Artículos",
-        pub_category_conferences: "Dirección de Coloquios y Conferencias",
+        pub_category_conferences: "Coloquios y conferencias",
         pub_category_talks: "Intervenciones",
 
         // Contact
