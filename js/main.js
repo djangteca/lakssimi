@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initRevealAnimations();
     initCookieBanner();
     initLanguageSelector();
+    initBackToTop();
 });
 
 /**
@@ -300,4 +301,30 @@ function setLanguage(lang) {
 
     // Update HTML lang attribute
     document.documentElement.lang = lang;
+}
+
+/**
+ * Back to Top Button
+ */
+function initBackToTop() {
+    const backToTopBtn = document.getElementById('back-to-top');
+
+    if (!backToTopBtn) return;
+
+    // Show/hide button based on scroll position
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 500) {
+            backToTopBtn.classList.add('visible');
+        } else {
+            backToTopBtn.classList.remove('visible');
+        }
+    });
+
+    // Scroll to top when clicked
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
 }
