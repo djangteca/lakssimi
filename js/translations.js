@@ -62,7 +62,7 @@ const translations = {
 
         // Services - Contentieux complexe
         area2_service1: "› Choix de la stratégie judiciaire et évaluation des chances de succès",
-        area2_service2: "› Contentieux contractuels devant les juridictions civiles et commerciales",
+        area2_service2: "› Contentieux contractuels complexes devant les juridictions civiles et commerciales",
         area2_service3: "› Avis avant pourvoi en cassation",
 
         // Services - Arbitrage
@@ -184,7 +184,7 @@ const translations = {
 
         // Services - Complex Litigation
         area2_service1: "› Choice of litigation strategy and assessment of success chances",
-        area2_service2: "› Contractual disputes before civil and commercial courts",
+        area2_service2: "› Complex contractual disputes before civil and commercial courts",
         area2_service3: "› Advisory opinions before appeal to the Court of Cassation",
 
         // Services - Arbitration
@@ -306,7 +306,7 @@ const translations = {
 
         // Services - Contencioso Complexo
         area2_service1: "› Escolha da estratégia judicial e avaliação das chances de sucesso",
-        area2_service2: "› Litígios contratuais perante os tribunais civis e comerciais",
+        area2_service2: "› Litígios contratuais complexos perante os tribunais civis e comerciais",
         area2_service3: "› Pareceres antes de recurso à Corte de Cassação",
 
         // Services - Arbitragem
@@ -428,7 +428,7 @@ const translations = {
 
         // Services - Contencioso Complejo
         area2_service1: "› Elección de la estrategia judicial y evaluación de las posibilidades de éxito",
-        area2_service2: "› Litigios contractuales ante los tribunales civiles y comerciales",
+        area2_service2: "› Litigios contractuales complejos ante los tribunales civiles y comerciales",
         area2_service3: "› Dictámenes previos al recurso de casación",
 
         // Services - Arbitraje
