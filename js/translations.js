@@ -57,7 +57,8 @@ const translations = {
         area1_service1: "› Rédaction et audit de clauses sensibles",
         area1_service2: "› Avis de droit au soutien d'une négociation ou d'un contentieux",
         area1_service3: "› Analyse de risques avant signature ou en cours d'exécution",
-        area1_service4: "› Stratégie de sortie de contrat",
+        area1_service4: "› Exécution et responsabilité contractuelle",
+        area1_service5: "› Stratégie de sortie de contrat",
 
         // Services - Contentieux complexe
         area2_service1: "› Choix de la stratégie judiciaire et évaluation des chances de succès",
@@ -178,7 +179,8 @@ const translations = {
         area1_service1: "› Drafting and auditing of sensitive clauses",
         area1_service2: "› Legal opinions in support of negotiations or litigation",
         area1_service3: "› Risk analysis before signing or during execution",
-        area1_service4: "› Contract exit strategy",
+        area1_service4: "› Contract performance and contractual liability",
+        area1_service5: "› Contract exit strategy",
 
         // Services - Complex Litigation
         area2_service1: "› Choice of litigation strategy and assessment of success chances",
@@ -299,7 +301,8 @@ const translations = {
         area1_service1: "› Redação e auditoria de cláusulas sensíveis",
         area1_service2: "› Pareceres jurídicos em apoio a negociações ou litígios",
         area1_service3: "› Análise de riscos antes da assinatura ou durante a execução",
-        area1_service4: "› Estratégia de saída de contrato",
+        area1_service4: "› Execução e responsabilidade contratual",
+        area1_service5: "› Estratégia de saída de contrato",
 
         // Services - Contencioso Complexo
         area2_service1: "› Escolha da estratégia judicial e avaliação das chances de sucesso",
@@ -420,7 +423,8 @@ const translations = {
         area1_service1: "› Redacción y auditoría de cláusulas sensibles",
         area1_service2: "› Dictámenes jurídicos en apoyo de negociaciones o litigios",
         area1_service3: "› Análisis de riesgos antes de la firma o durante la ejecución",
-        area1_service4: "› Estrategia de salida de contrato",
+        area1_service4: "› Ejecución y responsabilidad contractual",
+        area1_service5: "› Estrategia de salida de contrato",
 
         // Services - Contencioso Complejo
         area2_service1: "› Elección de la estrategia judicial y evaluación de las posibilidades de éxito",
