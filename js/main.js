@@ -232,33 +232,49 @@ function initCookieBanner() {
 function initLanguageSelector() {
     const langButtons = document.querySelectorAll('.lang-btn');
 
-    if (langButtons.length === 0) return;
+    if (langButtons.length === 0) {
+        console.log('No language buttons found');
+        return;
+    }
 
-    // Get saved language or default to French
-    const savedLang = localStorage.getItem('language') || 'fr';
-    setLanguage(savedLang);
+    console.log('Language selector initialized with', langButtons.length, 'buttons');
 
     // Add click handlers to language buttons
     langButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const lang = btn.getAttribute('data-lang');
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const lang = this.getAttribute('data-lang');
+            console.log('Language button clicked:', lang);
             setLanguage(lang);
             localStorage.setItem('language', lang);
         });
     });
+
+    // Get saved language or default to French
+    const savedLang = localStorage.getItem('language') || 'fr';
+    console.log('Applying saved language:', savedLang);
+    setLanguage(savedLang);
 }
 
 /**
  * Set Language
  */
 function setLanguage(lang) {
+    console.log('setLanguage called with:', lang);
+
     // Check if translations exist
-    if (typeof translations === 'undefined' || !translations[lang]) {
-        console.warn('Translations not available for:', lang);
+    if (typeof translations === 'undefined') {
+        console.error('Translations object not found! Make sure translations.js is loaded before main.js');
+        return;
+    }
+
+    if (!translations[lang]) {
+        console.error('Translations not available for language:', lang);
         return;
     }
 
     const langData = translations[lang];
+    let updatedCount = 0;
 
     // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -270,12 +286,16 @@ function setLanguage(lang) {
             } else {
                 el.textContent = langData[key];
             }
+            updatedCount++;
         }
     });
 
+    console.log('Updated', updatedCount, 'elements to', lang);
+
     // Update active button state
     document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+        const isActive = btn.getAttribute('data-lang') === lang;
+        btn.classList.toggle('active', isActive);
     });
 
     // Update HTML lang attribute

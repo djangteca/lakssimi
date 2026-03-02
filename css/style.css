@@ -198,40 +198,31 @@ h1, h2, h3, h4, h5, h6 {
 /* Language Selector */
 .lang-selector {
     display: flex;
-    gap: 0.5rem;
-    margin-left: 1.5rem;
-    padding-left: 1.5rem;
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    gap: 0.25rem;
+    margin-left: 1rem;
 }
 
 .lang-btn {
     background: none;
-    border: none;
+    border: 1px solid transparent;
     cursor: pointer;
-    padding: 0.25rem 0.5rem;
+    padding: 0.35rem 0.5rem;
     border-radius: 4px;
     transition: all var(--transition-fast);
-    opacity: 0.6;
+    font-size: 1.25rem;
+    line-height: 1;
+    opacity: 0.5;
 }
 
 .lang-btn:hover {
     opacity: 1;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .lang-btn.active {
     opacity: 1;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.lang-btn .flag {
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    color: var(--color-white);
-}
-
-.lang-btn.active .flag {
-    color: var(--color-accent);
+    border-color: var(--color-accent);
+    background-color: rgba(201, 162, 39, 0.15);
 }
 
 /* Mobile Navigation Toggle */
@@ -911,12 +902,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .lang-selector {
-        position: absolute;
+        position: fixed;
         top: 1rem;
         right: 4rem;
         margin-left: 0;
-        padding-left: 0;
-        border-left: none;
+        z-index: 1001;
+        background-color: rgba(26, 26, 46, 0.9);
+        padding: 0.25rem;
+        border-radius: 6px;
     }
 
     .nav-toggle.active span:nth-child(1) {
