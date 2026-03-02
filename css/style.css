@@ -641,6 +641,25 @@ h1, h2, h3, h4, h5, h6 {
     gap: var(--spacing-xl);
 }
 
+.contact-content-simple {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-content-simple .contact-details {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+.contact-content-simple .contact-item {
+    flex: 1;
+    min-width: 250px;
+}
+
 .contact-intro {
     font-size: 1.125rem;
     color: var(--color-text);
