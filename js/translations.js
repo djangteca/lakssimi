@@ -66,6 +66,7 @@ const translations = {
         contact_email: "Email",
         contact_phone: "Téléphone",
         contact_linkedin: "LinkedIn",
+        contact_address: "Adresse",
 
         // Footer
         footer_tagline: "Consultant • Arbitre • Avocat au Barreau de Paris",
@@ -166,6 +167,7 @@ const translations = {
         contact_email: "Email",
         contact_phone: "Phone",
         contact_linkedin: "LinkedIn",
+        contact_address: "Address",
 
         // Footer
         footer_tagline: "Consultant • Arbitrator • Attorney at the Paris Bar",
@@ -266,6 +268,7 @@ const translations = {
         contact_email: "Email",
         contact_phone: "Telefone",
         contact_linkedin: "LinkedIn",
+        contact_address: "Endereço",
 
         // Footer
         footer_tagline: "Consultor • Árbitro • Advogado na Ordem de Paris",
@@ -366,6 +369,7 @@ const translations = {
         contact_email: "Email",
         contact_phone: "Teléfono",
         contact_linkedin: "LinkedIn",
+        contact_address: "Dirección",
 
         // Footer
         footer_tagline: "Consultor • Árbitro • Abogado del Colegio de París",
