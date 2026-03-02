@@ -61,8 +61,8 @@ const translations = {
 
         // Services - Contentieux complexe
         area2_service1: "› Choix de la stratégie judiciaire et évaluation des chances de succès",
-        area2_service2: "› Contentieux contractuels devant les juridictions commerciales et civiles",
-        area2_service3: "› Avis avant pourvoi",
+        area2_service2: "› Contentieux contractuels devant les juridictions civiles et commerciales",
+        area2_service3: "› Avis avant pourvoi en cassation",
 
         // Services - Arbitrage
         area3_service1: "› Désignation comme arbitre unique, co-arbitre ou président",
@@ -182,8 +182,8 @@ const translations = {
 
         // Services - Complex Litigation
         area2_service1: "› Choice of litigation strategy and assessment of success chances",
-        area2_service2: "› Contractual disputes before commercial and civil courts",
-        area2_service3: "› Pre-appeal advisory opinions",
+        area2_service2: "› Contractual disputes before civil and commercial courts",
+        area2_service3: "› Advisory opinions before appeal to the Court of Cassation",
 
         // Services - Arbitration
         area3_service1: "› Appointment as sole arbitrator, co-arbitrator or chairman",
@@ -303,8 +303,8 @@ const translations = {
 
         // Services - Contencioso Complexo
         area2_service1: "› Escolha da estratégia judicial e avaliação das chances de sucesso",
-        area2_service2: "› Litígios contratuais perante os tribunais comerciais e civis",
-        area2_service3: "› Pareceres pré-recurso",
+        area2_service2: "› Litígios contratuais perante os tribunais civis e comerciais",
+        area2_service3: "› Pareceres antes de recurso à Corte de Cassação",
 
         // Services - Arbitragem
         area3_service1: "› Designação como árbitro único, coárbitro ou presidente",
@@ -424,8 +424,8 @@ const translations = {
 
         // Services - Contencioso Complejo
         area2_service1: "› Elección de la estrategia judicial y evaluación de las posibilidades de éxito",
-        area2_service2: "› Litigios contractuales ante los tribunales comerciales y civiles",
-        area2_service3: "› Dictámenes previos al recurso",
+        area2_service2: "› Litigios contractuales ante los tribunales civiles y comerciales",
+        area2_service3: "› Dictámenes previos al recurso de casación",
 
         // Services - Arbitraje
         area3_service1: "› Designación como árbitro único, coárbitro o presidente",
