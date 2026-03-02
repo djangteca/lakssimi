@@ -82,7 +82,7 @@ const translations = {
         // Legal Notice Page
         legal_title: "Mentions légales",
         legal_editor: "Éditeur du site",
-        legal_editor_content: "<strong>Tarik Lakssimi</strong><br>Avocat au Barreau de Paris<br>Professeur agrégé des facultés de droit<br>Directeur du département de la Recherche — École Nationale de la Magistrature",
+        legal_editor_content: "<strong>Tarik Lakssimi</strong><br>Avocat au Barreau de Paris<br>Professeur agrégé des facultés de droit<br>Directeur du département de la Recherche — École nationale de la magistrature",
         legal_regulated: "Activité réglementée",
         legal_regulated_content: "Tarik Lakssimi est avocat inscrit au Barreau de Paris, soumis aux règles déontologiques de la profession d'avocat, notamment le Règlement Intérieur National (RIN) et le Règlement Intérieur du Barreau de Paris (RIBP).",
         legal_bar_address: "Ordre des Avocats de Paris<br>11 place Dauphine<br>75001 Paris",
