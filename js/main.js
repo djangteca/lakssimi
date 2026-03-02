@@ -205,16 +205,10 @@ function initCookieBanner() {
     const acceptBtn = document.getElementById('cookie-accept');
     const refuseBtn = document.getElementById('cookie-refuse');
 
-    console.log('Cookie banner init:', { banner: !!banner, acceptBtn: !!acceptBtn, refuseBtn: !!refuseBtn });
-
-    if (!banner || !acceptBtn || !refuseBtn) {
-        console.error('Cookie banner elements not found');
-        return;
-    }
+    if (!banner || !acceptBtn || !refuseBtn) return;
 
     // Check if user already made a choice
     const cookieConsent = localStorage.getItem('cookie-consent');
-    console.log('Cookie consent status:', cookieConsent);
 
     if (cookieConsent) {
         banner.classList.add('hidden');
@@ -224,7 +218,6 @@ function initCookieBanner() {
     // Accept cookies
     acceptBtn.addEventListener('click', function(e) {
         e.preventDefault();
-        console.log('Accept clicked');
         localStorage.setItem('cookie-consent', 'accepted');
         banner.classList.add('hidden');
     });
@@ -232,7 +225,6 @@ function initCookieBanner() {
     // Refuse cookies
     refuseBtn.addEventListener('click', function(e) {
         e.preventDefault();
-        console.log('Refuse clicked');
         localStorage.setItem('cookie-consent', 'refused');
         banner.classList.add('hidden');
     });
@@ -244,19 +236,13 @@ function initCookieBanner() {
 function initLanguageSelector() {
     const langButtons = document.querySelectorAll('.lang-btn');
 
-    if (langButtons.length === 0) {
-        console.log('No language buttons found');
-        return;
-    }
-
-    console.log('Language selector initialized with', langButtons.length, 'buttons');
+    if (langButtons.length === 0) return;
 
     // Add click handlers to language buttons
     langButtons.forEach(btn => {
         btn.addEventListener('click', function(e) {
             e.preventDefault();
             const lang = this.getAttribute('data-lang');
-            console.log('Language button clicked:', lang);
             setLanguage(lang);
             localStorage.setItem('language', lang);
         });
@@ -264,7 +250,6 @@ function initLanguageSelector() {
 
     // Get saved language or default to French
     const savedLang = localStorage.getItem('language') || 'fr';
-    console.log('Applying saved language:', savedLang);
     setLanguage(savedLang);
 }
 
@@ -272,42 +257,26 @@ function initLanguageSelector() {
  * Set Language
  */
 function setLanguage(lang) {
-    console.log('setLanguage called with:', lang);
-
     // Check if translations exist
-    if (typeof translations === 'undefined') {
-        console.error('Translations object not found! Make sure translations.js is loaded before main.js');
-        return;
-    }
-
-    if (!translations[lang]) {
-        console.error('Translations not available for language:', lang);
-        return;
-    }
+    if (typeof translations === 'undefined' || !translations[lang]) return;
 
     const langData = translations[lang];
-    let updatedCount = 0;
 
     // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (langData[key]) {
-            // Check if element should use innerHTML (for HTML content)
             if (el.getAttribute('data-i18n-html') === 'true') {
                 el.innerHTML = langData[key];
             } else {
                 el.textContent = langData[key];
             }
-            updatedCount++;
         }
     });
 
-    console.log('Updated', updatedCount, 'elements to', lang);
-
     // Update active button state
     document.querySelectorAll('.lang-btn').forEach(btn => {
-        const isActive = btn.getAttribute('data-lang') === lang;
-        btn.classList.toggle('active', isActive);
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
     });
 
     // Update HTML lang attribute
