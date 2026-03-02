@@ -4,18 +4,18 @@
 
 /* CSS Variables */
 :root {
-    /* Colors - Noir & Blanc avec touche Bordeaux */
-    --color-primary: #1a1a1a;
-    --color-secondary: #2d2d2d;
-    --color-accent: #722f37;
-    --color-accent-light: #8b3a44;
-    --color-text: #1a1a1a;
-    --color-text-light: #4a4a4a;
-    --color-text-muted: #777777;
+    /* Colors - Noir & Or Bronze Mat (Grand Cabinet) */
+    --color-primary: #1c1c1c;
+    --color-secondary: #2a2a2a;
+    --color-accent: #a08b65;
+    --color-accent-light: #b39d77;
+    --color-text: #1c1c1c;
+    --color-text-light: #4d4d4d;
+    --color-text-muted: #737373;
     --color-white: #ffffff;
-    --color-off-white: #fafafa;
-    --color-border: #e0e0e0;
-    --color-border-dark: #333333;
+    --color-off-white: #f8f7f5;
+    --color-border: #e5e3df;
+    --color-border-dark: #3a3a3a;
 
     /* Typography */
     --font-serif: 'Cormorant Garamond', Georgia, serif;
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 .lang-btn.active {
     opacity: 1;
     border-color: var(--color-accent);
-    background-color: rgba(114, 47, 55, 0.3);
+    background-color: rgba(160, 139, 101, 0.25);
 }
 
 /* Mobile Navigation Toggle */
@@ -266,8 +266,8 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     bottom: 0;
     background:
-        radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.02) 0%, transparent 40%);
+        radial-gradient(circle at 20% 50%, rgba(160, 139, 101, 0.06) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(160, 139, 101, 0.04) 0%, transparent 40%);
     pointer-events: none;
 }
 
