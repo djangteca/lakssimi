@@ -1001,3 +1001,103 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ========================================
+   COOKIE BANNER RGPD
+   ======================================== */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: var(--spacing-md);
+    z-index: 9999;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform var(--transition-medium);
+}
+
+.cookie-banner.hidden {
+    transform: translateY(100%);
+}
+
+.cookie-content {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.cookie-content p {
+    flex: 1;
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    min-width: 280px;
+}
+
+.cookie-content a {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
+.cookie-content a:hover {
+    color: var(--color-accent-light);
+}
+
+.cookie-buttons {
+    display: flex;
+    gap: var(--spacing-sm);
+    flex-shrink: 0;
+}
+
+.cookie-btn {
+    padding: 0.75rem 1.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.cookie-btn-accept {
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+}
+
+.cookie-btn-accept:hover {
+    background-color: var(--color-accent-light);
+}
+
+.cookie-btn-refuse {
+    background-color: transparent;
+    color: var(--color-white);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cookie-btn-refuse:hover {
+    border-color: var(--color-white);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+    .cookie-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cookie-content p {
+        min-width: auto;
+    }
+
+    .cookie-buttons {
+        width: 100%;
+        justify-content: center;
+    }
+}

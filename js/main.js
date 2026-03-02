@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initScrollEffects();
     initSmoothScroll();
     initRevealAnimations();
+    initCookieBanner();
 });
 
 /**
@@ -191,4 +192,35 @@ function debounce(func, wait) {
         clearTimeout(timeout);
         timeout = setTimeout(() => func.apply(this, args), wait);
     };
+}
+
+/**
+ * Cookie Banner RGPD
+ */
+function initCookieBanner() {
+    const banner = document.getElementById('cookie-banner');
+    const acceptBtn = document.getElementById('cookie-accept');
+    const refuseBtn = document.getElementById('cookie-refuse');
+
+    if (!banner) return;
+
+    // Check if user already made a choice
+    const cookieConsent = localStorage.getItem('cookie-consent');
+
+    if (cookieConsent) {
+        banner.classList.add('hidden');
+        return;
+    }
+
+    // Accept cookies
+    acceptBtn.addEventListener('click', () => {
+        localStorage.setItem('cookie-consent', 'accepted');
+        banner.classList.add('hidden');
+    });
+
+    // Refuse cookies
+    refuseBtn.addEventListener('click', () => {
+        localStorage.setItem('cookie-consent', 'refused');
+        banner.classList.add('hidden');
+    });
 }
