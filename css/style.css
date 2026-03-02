@@ -4,11 +4,11 @@
 
 /* CSS Variables */
 :root {
-    /* Colors - Noir & Blanc Élégant */
+    /* Colors - Noir & Blanc avec touche Bordeaux */
     --color-primary: #1a1a1a;
     --color-secondary: #2d2d2d;
-    --color-accent: #404040;
-    --color-accent-light: #555555;
+    --color-accent: #722f37;
+    --color-accent-light: #8b3a44;
     --color-text: #1a1a1a;
     --color-text-light: #4a4a4a;
     --color-text-muted: #777777;
@@ -106,12 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-    background-color: var(--color-white);
-    color: var(--color-primary);
+    background-color: var(--color-accent);
+    color: var(--color-white);
 }
 
 .btn-primary:hover {
-    background-color: var(--color-off-white);
+    background-color: var(--color-accent-light);
     transform: translateY(-2px);
 }
 
@@ -221,8 +221,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .lang-btn.active {
     opacity: 1;
-    border-color: rgba(255, 255, 255, 0.5);
-    background-color: rgba(255, 255, 255, 0.15);
+    border-color: var(--color-accent);
+    background-color: rgba(114, 47, 55, 0.3);
 }
 
 /* Mobile Navigation Toggle */
@@ -1161,7 +1161,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 2rem;
     width: 50px;
     height: 50px;
-    background-color: var(--color-primary);
+    background-color: var(--color-accent);
     color: var(--color-white);
     border: none;
     border-radius: 50%;
@@ -1178,7 +1178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-    background-color: var(--color-secondary);
+    background-color: var(--color-accent-light);
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
