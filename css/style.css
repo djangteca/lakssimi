@@ -629,6 +629,29 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
 }
 
+/* Category Accordion Header */
+.category-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--color-border-dark);
+    padding: var(--spacing-sm) 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.category-header:hover {
+    opacity: 0.8;
+}
+
+.category-header:hover .category-toggle {
+    transform: scale(1.1);
+}
+
 .category-title {
     font-family: var(--font-sans);
     font-size: 0.75rem;
@@ -636,9 +659,31 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--color-accent);
-    margin-bottom: var(--spacing-md);
-    padding-bottom: var(--spacing-xs);
-    border-bottom: 1px solid var(--color-border-dark);
+    margin: 0;
+}
+
+.category-toggle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--color-accent);
+    transition: transform var(--transition-medium);
+    line-height: 1;
+}
+
+.category-header[aria-expanded="true"] .category-toggle {
+    transform: rotate(45deg);
+}
+
+/* Category Content (collapsible) */
+.category-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.category-content.open {
+    max-height: 2000px;
+    transition: max-height 0.6s ease-in;
 }
 
 .publication-book .publication-title {

@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initCookieBanner();
     initLanguageSelector();
     initBackToTop();
+    initPublicationsAccordion();
 });
 
 /**
@@ -325,6 +326,26 @@ function initBackToTop() {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
+        });
+    });
+}
+
+/**
+ * Publications Accordion
+ */
+function initPublicationsAccordion() {
+    const categoryHeaders = document.querySelectorAll('.category-header');
+
+    if (categoryHeaders.length === 0) return;
+
+    categoryHeaders.forEach(header => {
+        header.addEventListener('click', () => {
+            const isExpanded = header.getAttribute('aria-expanded') === 'true';
+            const content = header.nextElementSibling;
+
+            // Toggle current
+            header.setAttribute('aria-expanded', !isExpanded);
+            content.classList.toggle('open');
         });
     });
 }
