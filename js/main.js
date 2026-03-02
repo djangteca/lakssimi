@@ -205,10 +205,16 @@ function initCookieBanner() {
     const acceptBtn = document.getElementById('cookie-accept');
     const refuseBtn = document.getElementById('cookie-refuse');
 
-    if (!banner) return;
+    console.log('Cookie banner init:', { banner: !!banner, acceptBtn: !!acceptBtn, refuseBtn: !!refuseBtn });
+
+    if (!banner || !acceptBtn || !refuseBtn) {
+        console.error('Cookie banner elements not found');
+        return;
+    }
 
     // Check if user already made a choice
     const cookieConsent = localStorage.getItem('cookie-consent');
+    console.log('Cookie consent status:', cookieConsent);
 
     if (cookieConsent) {
         banner.classList.add('hidden');
@@ -216,13 +222,17 @@ function initCookieBanner() {
     }
 
     // Accept cookies
-    acceptBtn.addEventListener('click', () => {
+    acceptBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        console.log('Accept clicked');
         localStorage.setItem('cookie-consent', 'accepted');
         banner.classList.add('hidden');
     });
 
     // Refuse cookies
-    refuseBtn.addEventListener('click', () => {
+    refuseBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        console.log('Refuse clicked');
         localStorage.setItem('cookie-consent', 'refused');
         banner.classList.add('hidden');
     });
