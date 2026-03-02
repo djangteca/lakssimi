@@ -198,11 +198,21 @@ function initContactForm() {
         submitBtn.disabled = true;
 
         try {
-            // Simulate form submission (replace with actual API call)
-            await simulateSubmission(data);
+            // Send to FormSubmit
+            const response = await fetch('https://formsubmit.co/ajax/cabinet@avocat-lakssimi.com', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
 
-            showNotification('Votre message a bien été envoyé. Nous vous répondrons dans les plus brefs délais.', 'success');
-            form.reset();
+            if (response.ok) {
+                showNotification('Votre message a bien été envoyé. Nous vous répondrons dans les plus brefs délais.', 'success');
+                form.reset();
+            } else {
+                throw new Error('Erreur serveur');
+            }
         } catch (error) {
             showNotification('Une erreur est survenue. Veuillez réessayer ou nous contacter directement par email.', 'error');
         } finally {
@@ -225,25 +235,6 @@ function validateForm(data) {
     return true;
 }
 
-/**
- * Simulate Form Submission
- * Replace this with actual API call when backend is ready
- */
-function simulateSubmission(data) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            // Log the data (for development)
-            console.log('Form submission:', data);
-
-            // Simulate success (90% of the time)
-            if (Math.random() > 0.1) {
-                resolve({ success: true });
-            } else {
-                reject(new Error('Submission failed'));
-            }
-        }, 1500);
-    });
-}
 
 /**
  * Show Notification
