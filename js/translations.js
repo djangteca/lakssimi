@@ -30,7 +30,7 @@ const translations = {
 
         // Profile
         profile_title: "Profil",
-        profile_intro: "Tarik Lakssimi réunit une triple compétence : la rigueur doctrinale d'un agrégé des facultés de droit, l'expérience contentieuse de dix années auprès des juridictions suprêmes, et une connaissance intime du fonctionnement de la justice comme directeur de la Recherche à l'École nationale de la magistrature.",
+        profile_intro: "Tarik Lakssimi réunit une triple compétence : la rigueur doctrinale d'un agrégé des facultés de droit, l'expérience contentieuse de dix années auprès des juridictions suprêmes, et une compréhension approfondie du fonctionnement de la justice comme directeur de la Recherche à l'École nationale de la magistrature.",
         profile_text: "À l'École nationale de la magistrature, il a fondé la <em>Revue de la Recherche de l'École nationale de la magistrature</em>. Il intervient en consultation, contentieux complexe et arbitrage en droit des contrats civils et commerciaux, ainsi qu'en matière d'intelligence artificielle.",
 
         // Highlights
@@ -156,7 +156,7 @@ const translations = {
 
         // Profile
         profile_title: "Profile",
-        profile_intro: "Tarik Lakssimi combines a triple expertise: the doctrinal rigor of a tenured law professor, ten years of litigation experience before supreme courts, and an intimate knowledge of the judicial system as Director of Research at the French National School for the Judiciary.",
+        profile_intro: "Tarik Lakssimi combines a triple expertise: the doctrinal rigor of a tenured law professor, ten years of litigation experience before supreme courts, and a deep understanding of the judicial system as Director of Research at the French National School for the Judiciary.",
         profile_text: "At the French National School for the Judiciary, he founded the <em>Research Review of the National School for the Judiciary</em>. He practices in legal consulting, complex litigation and arbitration in civil and commercial contract law, as well as artificial intelligence matters.",
 
         // Highlights
@@ -282,7 +282,7 @@ const translations = {
 
         // Profile
         profile_title: "Perfil",
-        profile_intro: "Tarik Lakssimi reúne uma tripla competência: o rigor doutrinário de um professor catedrático de direito, a experiência contenciosa de dez anos junto aos tribunais superiores, e um conhecimento íntimo do funcionamento da justiça como diretor de Pesquisa na Escola Nacional da Magistratura.",
+        profile_intro: "Tarik Lakssimi reúne uma tripla competência: o rigor doutrinário de um professor catedrático de direito, a experiência contenciosa de dez anos junto aos tribunais superiores, e uma compreensão aprofundada do funcionamento da justiça como diretor de Pesquisa na Escola Nacional da Magistratura.",
         profile_text: "Na Escola Nacional da Magistratura, fundou a <em>Revista de Pesquisa da Escola Nacional da Magistratura</em>. Atua em consultoria, contencioso complexo e arbitragem em direito dos contratos civis e comerciais, bem como em matéria de inteligência artificial.",
 
         // Highlights
@@ -408,7 +408,7 @@ const translations = {
 
         // Profile
         profile_title: "Perfil",
-        profile_intro: "Tarik Lakssimi reúne una triple competencia: el rigor doctrinal de un catedrático de derecho, la experiencia contenciosa de diez años ante los tribunales supremos, y un conocimiento íntimo del funcionamiento de la justicia como director de Investigación en la Escuela Nacional de la Magistratura.",
+        profile_intro: "Tarik Lakssimi reúne una triple competencia: el rigor doctrinal de un catedrático de derecho, la experiencia contenciosa de diez años ante los tribunales supremos, y una comprensión profunda del funcionamiento de la justicia como director de Investigación en la Escuela Nacional de la Magistratura.",
         profile_text: "En la Escuela Nacional de la Magistratura, fundó la <em>Revista de Investigación de la Escuela Nacional de la Magistratura</em>. Interviene en consultoría, contencioso complejo y arbitraje en derecho de contratos civiles y comerciales, así como en materia de inteligencia artificial.",
 
         // Highlights
