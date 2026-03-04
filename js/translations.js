@@ -81,6 +81,7 @@ const translations = {
         // Publications
         publications_title: "Publications et travaux",
         pub_category_book: "Ouvrage",
+        pub_category_mission: "Mission ministérielle",
         pub_category_articles: "Articles",
         pub_category_conferences: "Colloques et conférences",
         pub_category_talks: "Interventions",
@@ -207,6 +208,7 @@ const translations = {
         // Publications
         publications_title: "Publications and Work",
         pub_category_book: "Book",
+        pub_category_mission: "Ministerial Mission",
         pub_category_articles: "Articles",
         pub_category_conferences: "Conferences",
         pub_category_talks: "Presentations",
@@ -333,6 +335,7 @@ const translations = {
         // Publications
         publications_title: "Publicações e Trabalhos",
         pub_category_book: "Livro",
+        pub_category_mission: "Missão ministerial",
         pub_category_articles: "Artigos",
         pub_category_conferences: "Colóquios e conferências",
         pub_category_talks: "Intervenções",
@@ -459,6 +462,7 @@ const translations = {
         // Publications
         publications_title: "Publicaciones y Trabajos",
         pub_category_book: "Libro",
+        pub_category_mission: "Misión ministerial",
         pub_category_articles: "Artículos",
         pub_category_conferences: "Coloquios y conferencias",
         pub_category_talks: "Intervenciones",
