@@ -34,14 +34,10 @@ const translations = {
         profile_text: "À l'École nationale de la magistrature, il a fondé la <em>Revue de la Recherche de l'École nationale de la magistrature</em>. Il intervient en consultation, contentieux complexe et arbitrage en droit des contrats civils et commerciaux, ainsi qu'en matière d'intelligence artificielle.",
 
         // Highlights
-        highlight1_number: "Agrégé",
-        highlight1_text: "Professeur des facultés de droit",
-        highlight2_number: "10+",
-        highlight2_text: "années chez les avocats au Conseil d'État et à la Cour de cassation",
-        highlight3_number: "4",
-        highlight3_text: "langues de procédure : FR, EN, PT, ES",
-        highlight4_number: "École nationale de la magistrature",
-        highlight4_text: "Directeur de la Recherche",
+        highlight1_number: "École nationale de la magistrature",
+        highlight1_text: "Directeur de la Recherche",
+        highlight2_number: "4",
+        highlight2_text: "langues de procédure : FR, EN, PT, ES",
 
         // Areas
         areas_title: "Domaines d'intervention",
@@ -161,14 +157,10 @@ const translations = {
         profile_text: "At the French National School for the Judiciary, he founded the <em>Research Review of the National School for the Judiciary</em>. He practices in legal consulting, complex litigation and arbitration in civil and commercial contract law, as well as artificial intelligence matters.",
 
         // Highlights
-        highlight1_number: "Agrégé",
-        highlight1_text: "Tenured Law Professor",
-        highlight2_number: "10+",
-        highlight2_text: "years with lawyers before the Council of State and Court of Cassation",
-        highlight3_number: "4",
-        highlight3_text: "procedural languages: FR, EN, PT, ES",
-        highlight4_number: "National School for the Judiciary",
-        highlight4_text: "Director of Research",
+        highlight1_number: "National School for the Judiciary",
+        highlight1_text: "Director of Research",
+        highlight2_number: "4",
+        highlight2_text: "procedural languages: FR, EN, PT, ES",
 
         // Areas
         areas_title: "Practice Areas",
@@ -288,14 +280,10 @@ const translations = {
         profile_text: "Na Escola Nacional da Magistratura, fundou a <em>Revista de Pesquisa da Escola Nacional da Magistratura</em>. Atua em consultoria, contencioso complexo e arbitragem em direito dos contratos civis e comerciais, bem como em matéria de inteligência artificial.",
 
         // Highlights
-        highlight1_number: "Catedrático",
-        highlight1_text: "Professor de Direito",
-        highlight2_number: "10+",
-        highlight2_text: "anos junto aos advogados no Conselho de Estado e no Tribunal de Cassação",
-        highlight3_number: "4",
-        highlight3_text: "línguas processuais: FR, EN, PT, ES",
-        highlight4_number: "Escola Nacional da Magistratura",
-        highlight4_text: "Diretor de Pesquisa",
+        highlight1_number: "Escola Nacional da Magistratura",
+        highlight1_text: "Diretor de Pesquisa",
+        highlight2_number: "4",
+        highlight2_text: "línguas processuais: FR, EN, PT, ES",
 
         // Areas
         areas_title: "Áreas de Atuação",
@@ -415,14 +403,10 @@ const translations = {
         profile_text: "En la Escuela Nacional de la Magistratura, fundó la <em>Revista de Investigación de la Escuela Nacional de la Magistratura</em>. Interviene en consultoría, contencioso complejo y arbitraje en derecho de contratos civiles y comerciales, así como en materia de inteligencia artificial.",
 
         // Highlights
-        highlight1_number: "Catedrático",
-        highlight1_text: "Profesor de Derecho",
-        highlight2_number: "10+",
-        highlight2_text: "años con los abogados ante el Consejo de Estado y el Tribunal de Casación",
-        highlight3_number: "4",
-        highlight3_text: "idiomas procesales: FR, EN, PT, ES",
-        highlight4_number: "Escuela Nacional de la Magistratura",
-        highlight4_text: "Director de Investigación",
+        highlight1_number: "Escuela Nacional de la Magistratura",
+        highlight1_text: "Director de Investigación",
+        highlight2_number: "4",
+        highlight2_text: "idiomas procesales: FR, EN, PT, ES",
 
         // Areas
         areas_title: "Áreas de Práctica",
