@@ -31,7 +31,7 @@ const translations = {
         // Profile
         profile_title: "Profil",
         profile_intro: "Tarik Lakssimi réunit une triple compétence : la rigueur doctrinale d'un agrégé des facultés de droit, l'expérience contentieuse de dix années chez les avocats au Conseil d'État et à la Cour de cassation, et une compréhension approfondie du fonctionnement de la justice comme directeur de la recherche à l'École nationale de la magistrature.",
-        profile_text: "À l'École nationale de la magistrature, il a fondé la <em>Revue de la recherche de l'École nationale de la magistrature</em>. Il intervient en consultation, contentieux complexe et arbitrage en droit des contrats civils et commerciaux, ainsi qu'en matière d'intelligence artificielle.",
+        profile_text: "À l'École nationale de la magistrature, il a fondé la <em>Revue de la recherche de l'École nationale de la magistrature</em> dont il est le directeur scientifique. Il intervient en consultation, contentieux complexe et arbitrage en droit des contrats civils et commerciaux, ainsi qu'en matière d'intelligence artificielle.",
 
         // Highlights
         highlight1_number: "École nationale de la magistrature",
@@ -155,7 +155,7 @@ const translations = {
         // Profile
         profile_title: "Profile",
         profile_intro: "Tarik Lakssimi combines a triple expertise: the doctrinal rigor of a tenured law professor, ten years of litigation experience with lawyers before the Council of State and Court of Cassation, and a deep understanding of the judicial system as Director of Research at the French National School for the Judiciary.",
-        profile_text: "At the French National School for the Judiciary, he founded the <em>Research Review of the National School for the Judiciary</em>. He practices in legal consulting, complex litigation and arbitration in civil and commercial contract law, as well as artificial intelligence matters.",
+        profile_text: "At the French National School for the Judiciary, he founded the <em>Research Review of the National School for the Judiciary</em>, of which he is the scientific director. He practices in legal consulting, complex litigation and arbitration in civil and commercial contract law, as well as artificial intelligence matters.",
 
         // Highlights
         highlight1_number: "National School for the Judiciary",
@@ -279,7 +279,7 @@ const translations = {
         // Profile
         profile_title: "Perfil",
         profile_intro: "Tarik Lakssimi reúne uma tripla competência: o rigor doutrinário de um professor catedrático de direito, a experiência contenciosa de dez anos junto aos advogados no Conselho de Estado e no Tribunal de Cassação, e uma compreensão aprofundada do funcionamento da justiça como diretor de Pesquisa na Escola Nacional da Magistratura.",
-        profile_text: "Na Escola Nacional da Magistratura, fundou a <em>Revista de Pesquisa da Escola Nacional da Magistratura</em>. Atua em consultoria, contencioso complexo e arbitragem em direito dos contratos civis e comerciais, bem como em matéria de inteligência artificial.",
+        profile_text: "Na Escola Nacional da Magistratura, fundou a <em>Revista de Pesquisa da Escola Nacional da Magistratura</em>, da qual é o diretor científico. Atua em consultoria, contencioso complexo e arbitragem em direito dos contratos civis e comerciais, bem como em matéria de inteligência artificial.",
 
         // Highlights
         highlight1_number: "Escola Nacional da Magistratura",
@@ -403,7 +403,7 @@ const translations = {
         // Profile
         profile_title: "Perfil",
         profile_intro: "Tarik Lakssimi reúne una triple competencia: el rigor doctrinal de un catedrático de derecho, la experiencia contenciosa de diez años con los abogados ante el Consejo de Estado y el Tribunal de Casación, y una comprensión profunda del funcionamiento de la justicia como director de Investigación en la Escuela Nacional de la Magistratura.",
-        profile_text: "En la Escuela Nacional de la Magistratura, fundó la <em>Revista de Investigación de la Escuela Nacional de la Magistratura</em>. Interviene en consultoría, contencioso complejo y arbitraje en derecho de contratos civiles y comerciales, así como en materia de inteligencia artificial.",
+        profile_text: "En la Escuela Nacional de la Magistratura, fundó la <em>Revista de Investigación de la Escuela Nacional de la Magistratura</em>, de la cual es el director científico. Interviene en consultoría, contencioso complejo y arbitraje en derecho de contratos civiles y comerciales, así como en materia de inteligencia artificial.",
 
         // Highlights
         highlight1_number: "Escuela Nacional de la Magistratura",
