@@ -70,9 +70,10 @@ const translations = {
         area3_service2: "› Litiges post-acquisition, exécution de contrats, responsabilité contractuelle",
 
         // Services - Intelligence artificielle
-        area4_service1: "› Conformité au Règlement européen sur l'IA (RIA)",
-        area4_service2: "› Gouvernance des systèmes d'IA en entreprise",
-        area4_service3: "› Stratégie juridique face aux régulateurs",
+        area4_service1: "› Stratégie de déploiement de l'IA",
+        area4_service2: "› Gouvernance des systèmes d'IA",
+        area4_service3: "› Conformité à la réglementation européenne (RIA, transfert de données)",
+        area4_service4: "› Formation",
 
         // Publications
         publications_title: "Publications et travaux",
@@ -193,9 +194,10 @@ const translations = {
         area3_service2: "› Post-acquisition disputes, contract performance, contractual liability",
 
         // Services - Artificial Intelligence
-        area4_service1: "› Compliance with the EU AI Act",
-        area4_service2: "› AI systems governance in business",
-        area4_service3: "› Legal strategy with regulators",
+        area4_service1: "› AI deployment strategy",
+        area4_service2: "› AI systems governance",
+        area4_service3: "› Compliance with European regulations (AI Act, data transfers)",
+        area4_service4: "› Training",
 
         // Publications
         publications_title: "Publications and Work",
@@ -316,9 +318,10 @@ const translations = {
         area3_service2: "› Litígios pós-aquisição, execução de contratos, responsabilidade contratual",
 
         // Services - Inteligência Artificial
-        area4_service1: "› Conformidade com o Regulamento Europeu de IA (RIA)",
-        area4_service2: "› Governança de sistemas de IA nas empresas",
-        area4_service3: "› Estratégia jurídica perante reguladores",
+        area4_service1: "› Estratégia de implantação de IA",
+        area4_service2: "› Governança de sistemas de IA",
+        area4_service3: "› Conformidade com a regulamentação europeia (RIA, transferência de dados)",
+        area4_service4: "› Formação",
 
         // Publications
         publications_title: "Publicações e Trabalhos",
@@ -439,9 +442,10 @@ const translations = {
         area3_service2: "› Litigios post-adquisición, ejecución de contratos, responsabilidad contractual",
 
         // Services - Inteligencia Artificial
-        area4_service1: "› Cumplimiento del Reglamento Europeo de IA (RIA)",
-        area4_service2: "› Gobernanza de sistemas de IA en la empresa",
-        area4_service3: "› Estrategia jurídica frente a reguladores",
+        area4_service1: "› Estrategia de despliegue de IA",
+        area4_service2: "› Gobernanza de sistemas de IA",
+        area4_service3: "› Cumplimiento de la normativa europea (RIA, transferencia de datos)",
+        area4_service4: "› Formación",
 
         // Publications
         publications_title: "Publicaciones y Trabajos",
