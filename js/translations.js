@@ -16,7 +16,7 @@ const translations = {
         // Hero
         hero_subtitle: "Professeur agrégé des facultés de droit",
         hero_title: "Tarik Lakssimi",
-        hero_role: "Directeur du département de la Recherche — École nationale de la magistrature",
+        hero_role: "Directeur du département de la recherche — École nationale de la magistrature",
         hero_function1: "Consultant",
         hero_function2: "Arbitre",
         hero_function3: "Avocat au Barreau de Paris",
@@ -30,12 +30,12 @@ const translations = {
 
         // Profile
         profile_title: "Profil",
-        profile_intro: "Tarik Lakssimi réunit une triple compétence : la rigueur doctrinale d'un agrégé des facultés de droit, l'expérience contentieuse de dix années chez les avocats au Conseil d'État et à la Cour de cassation, et une compréhension approfondie du fonctionnement de la justice comme directeur de la Recherche à l'École nationale de la magistrature.",
-        profile_text: "À l'École nationale de la magistrature, il a fondé la <em>Revue de la Recherche de l'École nationale de la magistrature</em>. Il intervient en consultation, contentieux complexe et arbitrage en droit des contrats civils et commerciaux, ainsi qu'en matière d'intelligence artificielle.",
+        profile_intro: "Tarik Lakssimi réunit une triple compétence : la rigueur doctrinale d'un agrégé des facultés de droit, l'expérience contentieuse de dix années chez les avocats au Conseil d'État et à la Cour de cassation, et une compréhension approfondie du fonctionnement de la justice comme directeur de la recherche à l'École nationale de la magistrature.",
+        profile_text: "À l'École nationale de la magistrature, il a fondé la <em>Revue de la recherche de l'École nationale de la magistrature</em>. Il intervient en consultation, contentieux complexe et arbitrage en droit des contrats civils et commerciaux, ainsi qu'en matière d'intelligence artificielle.",
 
         // Highlights
         highlight1_number: "École nationale de la magistrature",
-        highlight1_text: "Directeur de la Recherche",
+        highlight1_text: "Directeur de la recherche",
         highlight2_number: "4",
         highlight2_text: "langues de procédure : FR, EN, PT, ES",
 
@@ -106,7 +106,7 @@ const translations = {
         // Legal Notice Page
         legal_title: "Mentions légales",
         legal_editor: "Éditeur du site",
-        legal_editor_content: "<strong>Tarik Lakssimi</strong><br>Avocat au Barreau de Paris<br>Professeur agrégé des facultés de droit<br>Directeur du département de la Recherche — École nationale de la magistrature",
+        legal_editor_content: "<strong>Tarik Lakssimi</strong><br>Avocat au Barreau de Paris<br>Professeur agrégé des facultés de droit<br>Directeur du département de la recherche — École nationale de la magistrature",
         legal_regulated: "Activité réglementée",
         legal_regulated_content: "Tarik Lakssimi est avocat inscrit au Barreau de Paris, soumis aux règles déontologiques de la profession d'avocat, notamment le Règlement Intérieur National (RIN) et le Règlement Intérieur du Barreau de Paris (RIBP).",
         legal_bar_address: "Ordre des Avocats de Paris<br>11 place Dauphine<br>75001 Paris",
