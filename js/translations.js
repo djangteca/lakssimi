@@ -50,7 +50,7 @@ const translations = {
         area3_desc: "Arbitre unique, co-arbitre ou président de tribunal arbitral, en procédures ad hoc ou institutionnelles. Litiges contractuels et commerciaux, nationaux et internationaux.",
         area3_languages: "<strong>Langues de procédure :</strong> français, anglais, portugais, espagnol.",
         area4_title: "Intelligence artificielle",
-        area4_desc: "Accompagnement des directions juridiques sur les enjeux de l'intelligence artificielle. Contributeur au rapport sur l'intelligence artificielle remis au Garde des Sceaux (2025) dans le cadre du déploiement de l'IA dans les juridictions.",
+        area4_desc: "Accompagnement des directions juridiques sur les enjeux de l'intelligence artificielle. Contributeur au rapport sur l'intelligence artificielle remis au Ministre de la Justice, Garde des Sceaux (2025) dans le cadre du déploiement de l'IA dans les juridictions.",
         area4_note: "Expertise distinctive sur les enjeux réglementaires (RIA, RGPD).",
 
         // Services - Droit des contrats
