@@ -581,6 +581,16 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-text-light);
 }
 
+.domaine-languages a {
+    color: var(--color-text-light);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.domaine-languages a:hover {
+    color: var(--color-accent);
+}
+
 .domaine-services {
     list-style: none;
     padding: 0;
